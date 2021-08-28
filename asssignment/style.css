@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-container{
+    width: 80%;
+    height: 100%;
+    margin: 20%;
+    padding: 20px;
+    background-color: rgba(218, 214, 214, 0.753);
+    border-radius:20px ;
+}
+.now{
+    border-radius: 30px;
+    background-color: tomato;
+    width: 50px;
+    /* margin:10px 0; */
+    padding: 5px;
+}
+.heading{
+    padding: 20px 2px;
+    font-size: 32px;
+}
+svg{
+    display: inline-block;
+}
+.time ,.loc{
+    display: inline;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.a , .b , .c{
+    margin: 10px;
+    padding: 5px;
+}
+.c img{
+    width: 20px;
+    margin-left: 5px;
+    border-radius: 100px;
+
+}
+.c svg{
+    font-size: 35px;
+}
+.c .name{
+    /* border: 2px solid red; */
+    position: relative;
+    bottom: 6px;
+}
+.d img{
+    width: 30px;
+    border: 4px solid white;
+    border-radius: 200px;
+    margin-left: 10px;
+}
+.d span{
+    border: 4px solid white;
+    font-size: 15px;
+    border-radius: 200px;
+    position: relative;
+    bottom: 10px;
+    right:13px;
+}
+.card-container .main{
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    position: absolute;
+    top: 74%;
+    left: 68%;
+}
+.btn{
+    text-decoration: none;
+    background-color: dodgerblue;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+    left: 78%;
+    padding: 11px;
+}
